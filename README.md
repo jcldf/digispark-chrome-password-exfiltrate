@@ -2,7 +2,10 @@
 this is a modified version from: https://github.com/cubidalsphere/Rubber-Ducky
 you need to use https://github.com/mame82/duck2spark to encode digispark's payload
 
-vamos lá... pra começar vc precisa usar o duckencode e depois o duck2spark do mame82 (github mame82)
+---
+
+# vamos lá... 
+pra começar vc precisa usar o duckencode e depois o duck2spark do mame82 (github mame82)
 
 primeiro upa o arquivo referente à conexão com o gmail em algum free host... e configura ele tbm (né)
 
