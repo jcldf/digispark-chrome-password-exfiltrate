@@ -19,7 +19,7 @@ No linha:1 caractere:162
     + CategoryInfo          : ObjectNotFound: (Get-ChromeDump:String) [], CommandNotFoundException
     + FullyQualifiedErrorId : CommandNotFoundException
     
-# tente baixar o arquivo Get-ChromeDump.ps1 e upar em outro git, modifique algo no script para não ser detectado pelo antivirus.
+# tente baixar o arquivo Get-ChromeDump.ps1 e upar em outro git, modifique algo no script (tipo os comentários) para não ser detectado pelo antivirus.
 
 
 # Usando o digispark para exfiltrar dados do google chrome
