@@ -1,3 +1,6 @@
+# Esse projeto parece não estar mais funcionando devido a correções no chrome e uso do Empire
+
+
 # Usando o digispark para exfiltrar dados do google chrome
 this is a modified version from: https://github.com/cubidalsphere/Rubber-Ducky
 you need to use https://github.com/mame82/duck2spark to encode digispark's payload
